@@ -5,6 +5,6 @@ Maths website
 Glorine Vihendah
 
 ## Technologies used
-HTML
-CSS
-vs code
+- HTML
+- CSS
+- vs code

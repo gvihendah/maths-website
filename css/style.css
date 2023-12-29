@@ -1,6 +1,6 @@
 #container {
     width: 1050px;
-    border: 1px solid grey;
+    ##border: 1px solid grey;
     height: 100px;
     margin: 0 auto;
 }
@@ -14,14 +14,143 @@ h1 a {
 
 #searchbox {
     float: right;
-    background: linear-gradient(green, blue);
+    background: linear-gradient(purple, rgb(207, 93, 12));
     padding: 20px;
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
 }
 
 #header {
     height: 100px;
+    padding: 10px 5px 10px 15px;
 }
 
 #brand {
     float: left;
+}
+.text {
+    float: left;
+    width: 150px;
+    height: 15px;
+    font-size: 13px;
+    color: #7f3232;
+    background: white url(images/search.png) right center no-repeat;
+}
+#submit {
+    float: right; 
+    width: 100px;
+    height: 22px;
+    font-weight: bold;
+    color: aliceblue;
+    background: blueviolet;
+    font-size: 12px;
+    
+}
+
+.clear {
+
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid rgb(117, 97, 94);
+}
+
+#menu {
+    height: 70px;
+    background: green linear-gradient(orange, brown);
+    padding: 7px 0;
+}
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 30px;
+    transition: 0.3s ease;
+}
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    font-size: 18px;
+    font-weight: bold;
+    color: cornflowerblue;
+
+}
+
+#introduction {
+    background: linear-gradient(orange, rgb(103, 60, 6));
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3 {
+    font-size: 40px;
+    color: darkmagenta;
+    font-weight: normal;
+}
+#introduction p {
+    font-size: 25px;
+    color: darkslateblue;
+    text-align: justify;
+}  
+
+.sidebar {
+    height: 500px;
+    width: 400px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+#leftsidebar {
+    float: left;
+
+}
+#rightsidebar {
+    float: right;
+
+
+}
+
+.sidebar h3 {
+    color: blueviolet;
+    font-size: 25px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;  
+    font-size: 20px;
+
+}
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.5s ease;
+
+}
+
+.#leftsidebar ul li {
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow.png);
+}
+
+body {
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-2067-1024x683.jpg);
+}
+
+#leftsidebar ul {
+    padding-top: 8px;
 }
